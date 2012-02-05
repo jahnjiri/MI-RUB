@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>Class: FW</title>
+
+	<link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+	<script src="./js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+
+</head>
+<body class="class">
+
+	<div id="metadata">
+		<div id="home-metadata">
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+			</div>
+		</div>
+
+		<div id="file-metadata">
+			<div id="file-list-section" class="section">
+				<h3 class="section-header">In Files</h3>
+				<div class="section-body">
+					<ul>
+					
+						<li><a href="./semestralka_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+							class="thickbox" title="semestralka.rb">semestralka.rb</a></li>
+					
+					</ul>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="class-metadata">
+
+			<!-- Parent Class -->
+			
+			<div id="parent-class-section" class="section">
+				<h3 class="section-header">Parent</h3>
+				
+				<p class="link">Object</p>
+				
+			</div>
+			
+
+			<!-- Namespace Contents -->
+			
+
+			<!-- Method Quickref -->
+			
+			<div id="method-list-section" class="section">
+				<h3 class="section-header">Methods</h3>
+				<ul class="link-list">
+					
+					<li><a href="#method-c-new">::new</a></li>
+					
+					<li><a href="#method-i-cifer">#cifer</a></li>
+					
+					<li><a href="#method-i-nacti">#nacti</a></li>
+					
+					<li><a href="#method-i-najdi_excentricitu">#najdi_excentricitu</a></li>
+					
+					<li><a href="#method-i-najdi_excentricity">#najdi_excentricity</a></li>
+					
+					<li><a href="#method-i-najdi_max_matice">#najdi_max_matice</a></li>
+					
+					<li><a href="#method-i-najdi_polomer">#najdi_polomer</a></li>
+					
+					<li><a href="#method-i-najdi_prumer">#najdi_prumer</a></li>
+					
+					<li><a href="#method-i-najdi_stredy">#najdi_stredy</a></li>
+					
+					<li><a href="#method-i-otestuj_uzel">#otestuj_uzel</a></li>
+					
+					<li><a href="#method-i-priprav_matici">#priprav_matici</a></li>
+					
+					<li><a href="#method-i-spocti_mat_vzdalenosti">#spocti_mat_vzdalenosti</a></li>
+					
+					<li><a href="#method-i-uloz_do_souboru">#uloz_do_souboru</a></li>
+					
+					<li><a href="#method-i-vypis_excentricitu">#vypis_excentricitu</a></li>
+					
+					<li><a href="#method-i-vypis_excentricity">#vypis_excentricity</a></li>
+					
+					<li><a href="#method-i-vypis_mat_sousednosti">#vypis_mat_sousednosti</a></li>
+					
+					<li><a href="#method-i-vypis_mat_vzdalenosti">#vypis_mat_vzdalenosti</a></li>
+					
+					<li><a href="#method-i-vypis_polomer">#vypis_polomer</a></li>
+					
+					<li><a href="#method-i-vypis_prumer">#vypis_prumer</a></li>
+					
+					<li><a href="#method-i-vypis_stredy">#vypis_stredy</a></li>
+					
+					<li><a href="#method-i-vypis_ulozeni">#vypis_ulozeni</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Included Modules -->
+			
+		</div>
+
+		<div id="project-metadata">
+			
+			
+			<div id="fileindex-section" class="section project-section">
+				<h3 class="section-header">Files</h3>
+				<ul>
+				
+					<li class="file"><a href="./mn.html">mn</a></li>
+				
+					<li class="file"><a href="./mnb.html">mnb</a></li>
+				
+					<li class="file"><a href="./mo.html">mo</a></li>
+				
+					<li class="file"><a href="./mob.html">mob</a></li>
+				
+					<li class="file"><a href="./out.html">out</a></li>
+				
+					<li class="file"><a href="./rdoc.html">rdoc</a></li>
+				
+				</ul>
+			</div>
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="./images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" /></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value=""
+						class="quicksearch-field" />
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+					<li><a href="./FW.html">FW</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div id="documentation">
+		<h1 class="class">FW</h1>
+
+		<div id="description">
+			<p>
+Nazev tridy je <a href="FW.html">FW</a>, protoze hlavni vypocetni
+algoritmus je Floyd - Warshalluv algoritmus
+
+</p>
+
+		</div>
+
+		<!-- Constants -->
+		
+
+		<!-- Attributes -->
+		
+		<div id="attribute-method-details" class="method-section section">
+			<h3 class="section-header">Attributes</h3>
+
+			
+			<div id="mat-sousednosti-attribute-method" class="method-detail">
+				<a name="mat_sousednosti"></a>
+				
+				<a name="mat_sousednosti="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">mat_sousednosti</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Zadana matice sousednosti
+
+</p>
+				
+				</div>
+			</div>
+			
+			<div id="mat-vzdalenosti-attribute-method" class="method-detail">
+				<a name="mat_vzdalenosti"></a>
+				
+				<a name="mat_vzdalenosti="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">mat_vzdalenosti</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Vypoctena matice vzdalenosti
+
+</p>
+				
+				</div>
+			</div>
+			
+			<div id="soubor-attribute-method" class="method-detail">
+				<a name="soubor"></a>
+				
+				<a name="soubor="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">soubor</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Zadany vstupni soubor
+
+</p>
+				
+				</div>
+			</div>
+			
+			<div id="polomer-attribute-method" class="method-detail">
+				<a name="polomer"></a>
+				
+				<a name="polomer="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">polomer</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Vypocteny polomer
+
+</p>
+				
+				</div>
+			</div>
+			
+			<div id="prumer-attribute-method" class="method-detail">
+				<a name="prumer"></a>
+				
+				<a name="prumer="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">prumer</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Vypocteny prumer
+
+</p>
+				
+				</div>
+			</div>
+			
+			<div id="stredy-attribute-method" class="method-detail">
+				<a name="stredy"></a>
+				
+				<a name="stredy="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">stredy</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Vypoctene stredy
+
+</p>
+				
+				</div>
+			</div>
+			
+			<div id="excentricita-attribute-method" class="method-detail">
+				<a name="excentricita"></a>
+				
+				<a name="excentricita="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">excentricita</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Vypoctena excentricita uzlu
+
+</p>
+				
+				</div>
+			</div>
+			
+			<div id="uzel-exc-attribute-method" class="method-detail">
+				<a name="uzel_exc"></a>
+				
+				<a name="uzel_exc="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">uzel_exc</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Zadany uzel, pro ktery se pocita excentricita
+
+</p>
+				
+				</div>
+			</div>
+			
+			<div id="excentricity-attribute-method" class="method-detail">
+				<a name="excentricity"></a>
+				
+				<a name="excentricity="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">excentricity</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Vypoctene excentricity vsech uzlu
+
+</p>
+				
+				</div>
+			</div>
+			
+			<div id="vystup-attribute-method" class="method-detail">
+				<a name="vystup"></a>
+				
+				<a name="vystup="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">vystup</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Soubor, do ktereho se uklada cely beh programu
+
+</p>
+				
+				</div>
+			</div>
+			
+			<div id="data-vystup-attribute-method" class="method-detail">
+				<a name="data_vystup"></a>
+				
+				<a name="data_vystup="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">data_vystup</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				<p>
+Retezec, ktery se ulozi do souboru
+
+</p>
+				
+				</div>
+			</div>
+			
+		</div>
+		
+
+		<!-- Methods -->
+		
+		<div id="public-class-method-details" class="method-section section">
+			<h3 class="section-header">Public Class Methods</h3>
+
+		
+			<div id="new-method" class="method-detail ">
+				<a name="method-c-new"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">new</span><span
+						class="method-args">(s)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Inicializacni metoda
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="new-source">
+<pre>
+    <span class="ruby-comment cmt"># File semestralka.rb, line 27</span>
+27:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">s</span>)
+28:     <span class="ruby-ivar">@soubor</span> = <span class="ruby-identifier">s</span>[<span class="ruby-value">0</span>]            
+29:     <span class="ruby-ivar">@mat_sousednosti</span> = <span class="ruby-keyword kw">nil</span>                                    
+30:     <span class="ruby-ivar">@mat_vzdalenosti</span> = <span class="ruby-keyword kw">nil</span>                                    
+31:     <span class="ruby-ivar">@polomer</span> = <span class="ruby-value">0</span>                                                   
+32:     <span class="ruby-ivar">@prumer</span> = <span class="ruby-value">0</span>                                                    
+33:     <span class="ruby-ivar">@stredy</span> = []                                                                                   
+34:     <span class="ruby-ivar">@excentricita</span> = <span class="ruby-value">0</span>                                              
+35:     <span class="ruby-ivar">@excentricity</span> = []                                                                             
+36:     <span class="ruby-ivar">@uzel_exc</span> = <span class="ruby-value">0</span>                                                  
+37:     <span class="ruby-ivar">@vystup</span> = <span class="ruby-value str">&quot;out&quot;</span>                                  
+38:     <span class="ruby-ivar">@data_vystup</span> = <span class="ruby-value str">&quot;&quot;</span>                                
+39:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+		<div id="public-instance-method-details" class="method-section section">
+			<h3 class="section-header">Public Instance Methods</h3>
+
+		
+			<div id="cifer-method" class="method-detail ">
+				<a name="method-i-cifer"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">cifer</span><span
+						class="method-args">(cislo)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda urcujici pocet cifer cisla
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="cifer-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 211</span>
+211:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">cifer</span>(<span class="ruby-identifier">cislo</span>)
+212:     <span class="ruby-identifier">max</span> = <span class="ruby-value">1</span>                                                 
+213:     <span class="ruby-keyword kw">if</span> (<span class="ruby-identifier">cislo</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">0</span>) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">cislo</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">10</span>)
+214:       <span class="ruby-identifier">max</span> = <span class="ruby-value">1</span>
+215:       <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">max</span>
+216:     <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">cislo</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">10</span>) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">cislo</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">100</span>)
+217:       <span class="ruby-identifier">max</span> = <span class="ruby-value">2</span>
+218:       <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">max</span>
+219:     <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">cislo</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">100</span>) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">cislo</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">1000</span>)
+220:     <span class="ruby-identifier">max</span> = <span class="ruby-value">3</span>
+221:       <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">max</span>
+222:     <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">cislo</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">1000</span>) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">cislo</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">10000</span>)
+223:       <span class="ruby-identifier">max</span> = <span class="ruby-value">4</span>
+224:       <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">max</span>
+225:     <span class="ruby-keyword kw">end</span>                                              
+226:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="nacti-method" class="method-detail ">
+				<a name="method-i-nacti"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">nacti</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda ze zadaneho vstupniho souboru nacte matici sousednosti
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="nacti-source">
+<pre>
+    <span class="ruby-comment cmt"># File semestralka.rb, line 42</span>
+42:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">nacti</span>
+43:     <span class="ruby-identifier">pole</span> = []                                   
+44:     <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">soubor</span>, <span class="ruby-value str">&quot;r&quot;</span>){
+45:       <span class="ruby-operator">|</span><span class="ruby-identifier">f</span><span class="ruby-operator">|</span> <span class="ruby-identifier">f</span>.<span class="ruby-identifier">each</span>{
+46:         <span class="ruby-operator">|</span><span class="ruby-identifier">d</span><span class="ruby-operator">|</span> <span class="ruby-identifier">pole</span> = <span class="ruby-identifier">pole</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">d</span>.<span class="ruby-identifier">split</span>(<span class="ruby-value str">' '</span>)
+47:       }
+48:     }  
+49:     <span class="ruby-identifier">kolik</span> = <span class="ruby-identifier">pole</span>.<span class="ruby-identifier">length</span>
+50:     <span class="ruby-identifier">kol</span> = <span class="ruby-value">1</span>                                                      
+51:     <span class="ruby-identifier">odmocnina</span> = <span class="ruby-identifier">kolik</span><span class="ruby-operator">**</span><span class="ruby-value">0.5</span>
+52:     <span class="ruby-identifier">odm</span> = <span class="ruby-constant">Integer</span>(<span class="ruby-identifier">odmocnina</span>)
+53:     <span class="ruby-identifier">matice</span> = []                                                                                     
+54:     <span class="ruby-identifier">odm</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword kw">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span>
+55:       <span class="ruby-identifier">matice</span> <span class="ruby-operator">&lt;&lt;</span> []
+56:       <span class="ruby-identifier">odm</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword kw">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">j</span><span class="ruby-operator">|</span>
+57:         <span class="ruby-identifier">kol</span> = <span class="ruby-identifier">kol</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>                                                                              
+58:         <span class="ruby-identifier">matice</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>] = <span class="ruby-constant">Integer</span>(<span class="ruby-identifier">pole</span>[<span class="ruby-identifier">kol</span>])
+59:       <span class="ruby-keyword kw">end</span>
+60:     <span class="ruby-keyword kw">end</span>  
+61:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_sousednosti</span> = <span class="ruby-identifier">matice</span>
+62:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span> = <span class="ruby-identifier">matice</span>
+63:   <span class="ruby-keyword kw">end</span></pre>
+
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="najdi-excentricitu-method" class="method-detail ">
+				<a name="method-i-najdi_excentricitu"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">najdi_excentricitu</span><span
+						class="method-args">(uzel)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda, ktera pro zadany uzel spocte excentricitu
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="najdi-excentricitu-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 115</span>
+115:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">najdi_excentricitu</span>(<span class="ruby-identifier">uzel</span>)
+116:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">length</span>
+117:     <span class="ruby-identifier">max</span> = <span class="ruby-value">999</span>
+118:     <span class="ruby-identifier">radka</span> = <span class="ruby-identifier">uzel</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+119:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+120:       <span class="ruby-identifier">hodnota</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">radka</span>][<span class="ruby-identifier">i</span>]
+121:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">hodnota</span> <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">max</span>                                                            
+122:         <span class="ruby-identifier">max</span> = <span class="ruby-identifier">hodnota</span>
+123:       <span class="ruby-keyword kw">end</span>                                                 
+124:     <span class="ruby-keyword kw">end</span>                                                   
+125:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricita</span> = <span class="ruby-identifier">max</span>
+126:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="najdi-excentricity-method" class="method-detail ">
+				<a name="method-i-najdi_excentricity"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">najdi_excentricity</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda urcujici excentricity vsech uzlu nachazejicich se v grafu
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="najdi-excentricity-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 129</span>
+129:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">najdi_excentricity</span>
+130:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">length</span>
+131:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span>
+132:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">najdi_excentricitu</span>(<span class="ruby-identifier">i</span>)                               
+133:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricita</span>
+134:     <span class="ruby-keyword kw">end</span>  
+135:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="najdi-max-matice-method" class="method-detail ">
+				<a name="method-i-najdi_max_matice"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">najdi_max_matice</span><span
+						class="method-args">(matice)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda hledajici cislo s nejvetsim poctem cifer
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="najdi-max-matice-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 185</span>
+185:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">najdi_max_matice</span>(<span class="ruby-identifier">matice</span>)
+186:     <span class="ruby-identifier">max</span> = <span class="ruby-value">1</span>
+187:     <span class="ruby-identifier">kolik</span> = <span class="ruby-identifier">matice</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">length</span>
+188:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+189:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+190:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">matice</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>] <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">max</span>
+191:           <span class="ruby-identifier">max</span> = <span class="ruby-identifier">matice</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>]
+192:         <span class="ruby-keyword kw">end</span>
+193:       <span class="ruby-keyword kw">end</span>  
+194:     <span class="ruby-keyword kw">end</span>    
+195:     <span class="ruby-keyword kw">if</span> (<span class="ruby-identifier">max</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">0</span>) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">max</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">10</span>)
+196:       <span class="ruby-identifier">max</span> = <span class="ruby-value">1</span>
+197:       <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">max</span>
+198:     <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">max</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">10</span>) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">max</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">100</span>)
+199:       <span class="ruby-identifier">max</span> = <span class="ruby-value">2</span>
+200:       <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">max</span>
+201:     <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">max</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">100</span>) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">max</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">1000</span>)
+202:       <span class="ruby-identifier">max</span> = <span class="ruby-value">3</span>
+203:       <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">max</span>
+204:     <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">mx</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">1000</span>) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">max</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">10000</span>)
+205:       <span class="ruby-identifier">max</span> = <span class="ruby-value">4</span>
+206:       <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">max</span>
+207:     <span class="ruby-keyword kw">end</span>                                              
+208:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="najdi-polomer-method" class="method-detail ">
+				<a name="method-i-najdi_polomer"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">najdi_polomer</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda, ktera pocita polomer zadaneho grafu
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="najdi-polomer-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 153</span>
+153:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">najdi_polomer</span>   
+154:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span>.<span class="ruby-identifier">length</span>
+155:     <span class="ruby-identifier">min</span> = <span class="ruby-value">999</span>                                                                                                      
+156:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+157:       <span class="ruby-identifier">hodnota</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span>[<span class="ruby-identifier">i</span>]
+158:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">hodnota</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">min</span>
+159:         <span class="ruby-identifier">min</span> = <span class="ruby-identifier">hodnota</span>
+160:       <span class="ruby-keyword kw">end</span>
+161:     <span class="ruby-keyword kw">end</span>  
+162:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">polomer</span> = <span class="ruby-identifier">min</span>
+163:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="najdi-prumer-method" class="method-detail ">
+				<a name="method-i-najdi_prumer"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">najdi_prumer</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda pocitajici prumer zadaneho grafu
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="najdi-prumer-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 138</span>
+138:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">najdi_prumer</span>
+139:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">length</span>
+140:     <span class="ruby-identifier">max</span> = <span class="ruby-value">999</span>
+141:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+142:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+143:         <span class="ruby-identifier">hodnota</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>]
+144:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">hodnota</span> <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">max</span>
+145:           <span class="ruby-identifier">max</span> = <span class="ruby-identifier">hodnota</span>
+146:         <span class="ruby-keyword kw">end</span>
+147:       <span class="ruby-keyword kw">end</span>
+148:     <span class="ruby-keyword kw">end</span>
+149:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">prumer</span> = <span class="ruby-identifier">max</span>
+150:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="najdi-stredy-method" class="method-detail ">
+				<a name="method-i-najdi_stredy"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">najdi_stredy</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda, ktera najde vsechny stredy v grafu
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="najdi-stredy-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 166</span>
+166:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">najdi_stredy</span>
+167:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span>.<span class="ruby-identifier">length</span>
+168:     <span class="ruby-identifier">min</span> = <span class="ruby-value">999</span>                                                                                                      
+169:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+170:       <span class="ruby-identifier">hodnota</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span>[<span class="ruby-identifier">i</span>]                                                                                                                           
+171:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">hodnota</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">min</span>                                                                                                                                        
+172:         <span class="ruby-identifier">min</span> = <span class="ruby-identifier">hodnota</span>
+173:       <span class="ruby-keyword kw">end</span>                                                 
+174:     <span class="ruby-keyword kw">end</span>                                                   
+175:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+176:       <span class="ruby-identifier">hodnota</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span>[<span class="ruby-identifier">i</span>]
+177:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">hodnota</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">min</span>               
+178:         <span class="ruby-identifier">stred</span> = <span class="ruby-identifier">i</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>                      
+179:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">stredy</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">stred</span>    
+180:       <span class="ruby-keyword kw">end</span>                                                                                                                                          
+181:     <span class="ruby-keyword kw">end</span>                                                                                                                                            
+182:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="otestuj-uzel-method" class="method-detail ">
+				<a name="method-i-otestuj_uzel"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">otestuj_uzel</span><span
+						class="method-args">(uzel)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda testujici zda se uzivatelem zadany uzel v grafu vyskytuje
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="otestuj-uzel-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 104</span>
+104:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">otestuj_uzel</span>(<span class="ruby-identifier">uzel</span>)
+105:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">uzel_exc</span> = <span class="ruby-identifier">uzel</span> 
+106:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">length</span>
+107:     <span class="ruby-keyword kw">if</span> (<span class="ruby-identifier">uzel</span> <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">kolik</span>) <span class="ruby-operator">||</span> (<span class="ruby-identifier">uzel</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>)
+108:       <span class="ruby-keyword kw">return</span> <span class="ruby-value">1</span>       
+109:     <span class="ruby-keyword kw">else</span>                              
+110:       <span class="ruby-keyword kw">return</span> <span class="ruby-value">0</span>  
+111:     <span class="ruby-keyword kw">end</span>                              
+112:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="priprav-matici-method" class="method-detail ">
+				<a name="method-i-priprav_matici"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">priprav_matici</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda, ktera pripravi nactenou matici sousednosti do tvaru, se kterym
+pocita Floyd - Warshalluv algoritmus
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="priprav-matici-source">
+<pre>
+    <span class="ruby-comment cmt"># File semestralka.rb, line 74</span>
+74:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">priprav_matici</span> 
+75:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">length</span>
+76:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+77:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+78:         <span class="ruby-keyword kw">if</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>] <span class="ruby-operator">==</span> <span class="ruby-value">0</span>
+79:           <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>] = <span class="ruby-value">999</span>
+80:         <span class="ruby-keyword kw">end</span>
+81:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">j</span>
+82:            <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>] = <span class="ruby-value">0</span>
+83:         <span class="ruby-keyword kw">end</span>
+84:       <span class="ruby-keyword kw">end</span>  
+85:     <span class="ruby-keyword kw">end</span>    
+86:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="spocti-mat-vzdalenosti-method" class="method-detail ">
+				<a name="method-i-spocti_mat_vzdalenosti"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">spocti_mat_vzdalenosti</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda pocitajici matici vzdalenosti z matice sousednosti, tedy Floyd -
+Warshalluv algoritmus
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="spocti-mat-vzdalenosti-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 89</span>
+ 89:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">spocti_mat_vzdalenosti</span> 
+ 90:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">priprav_matici</span>      
+ 91:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">length</span>
+ 92:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">k</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+ 93:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+ 94:         <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+ 95:           <span class="ruby-keyword kw">if</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>] <span class="ruby-operator">&gt;</span> (<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">k</span>] <span class="ruby-operator">+</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">k</span>][<span class="ruby-identifier">j</span>])
+ 96:             <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>] = (<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">k</span>] <span class="ruby-operator">+</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">k</span>][<span class="ruby-identifier">j</span>])
+ 97:           <span class="ruby-keyword kw">end</span>
+ 98:         <span class="ruby-keyword kw">end</span>  
+ 99:       <span class="ruby-keyword kw">end</span>    
+100:     <span class="ruby-keyword kw">end</span>      
+101:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="uloz-do-souboru-method" class="method-detail ">
+				<a name="method-i-uloz_do_souboru"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">uloz_do_souboru</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda ulozi do souboru cely beh programu
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="uloz-do-souboru-source">
+<pre>
+    <span class="ruby-comment cmt"># File semestralka.rb, line 66</span>
+66:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">uloz_do_souboru</span>   
+67:     <span class="ruby-identifier">kam_ulozit</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">vystup</span>
+68:     <span class="ruby-identifier">f</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-identifier">kam_ulozit</span>, <span class="ruby-value str">&quot;w&quot;</span>)
+69:     <span class="ruby-identifier">f</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span>                       
+70:     <span class="ruby-identifier">f</span>.<span class="ruby-identifier">close</span>
+71:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="vypis-excentricitu-method" class="method-detail ">
+				<a name="method-i-vypis_excentricitu"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">vypis_excentricitu</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda, ktera vypisuje spoctenou excentricitu pro zadany uzel
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="vypis-excentricitu-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 343</span>
+343:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">vypis_excentricitu</span> 
+344:     <span class="ruby-identifier">puts</span>                                                      
+345:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+346:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;Excentricita uzlu &quot;</span>
+347:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;Excentricita uzlu &quot;</span>
+348:     <span class="ruby-identifier">print</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">uzel_exc</span>
+349:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">uzel_exc</span>)
+350:     <span class="ruby-identifier">puts</span> <span class="ruby-value str">&quot; je:&quot;</span>
+351:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; je:\n&quot;</span>
+352:     <span class="ruby-identifier">puts</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricita</span>
+353:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricita</span>)
+354:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+355:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="vypis-excentricity-method" class="method-detail ">
+				<a name="method-i-vypis_excentricity"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">vypis_excentricity</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda, ktera vypise pro vsechny uzly v grafu spoctene excentricity
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="vypis-excentricity-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 358</span>
+358:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">vypis_excentricity</span>
+359:     <span class="ruby-identifier">puts</span>                                                     
+360:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+361:     <span class="ruby-identifier">puts</span> <span class="ruby-value str">&quot;Excentricity uzlu jsou:&quot;</span>
+362:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;Excentricity uzlu jsou:\n&quot;</span>
+363:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span>.<span class="ruby-identifier">length</span>
+364:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">2</span>
+365:        <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;u: &quot;</span>
+366:        <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;u: &quot;</span>
+367:        <span class="ruby-identifier">print</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+368:        <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-identifier">i</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>)
+369:        <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot; - &quot;</span>
+370:        <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; - &quot;</span>
+371:        <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;exc: &quot;</span>
+372:        <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;exc: &quot;</span>
+373:        <span class="ruby-identifier">print</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span>[<span class="ruby-identifier">i</span>]
+374:        <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span>[<span class="ruby-identifier">i</span>])
+375:        <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;, &quot;</span>
+376:        <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;, &quot;</span>
+377:     <span class="ruby-keyword kw">end</span>
+378:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;u: &quot;</span>
+379:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;u: &quot;</span>
+380:     <span class="ruby-identifier">print</span> <span class="ruby-identifier">kolik</span>
+381:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-identifier">kolik</span>)
+382:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot; - &quot;</span>
+383:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; - &quot;</span>
+384:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;exc: &quot;</span>
+385:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;exc: &quot;</span>
+386:     <span class="ruby-identifier">print</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span>[<span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>]
+387:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">excentricity</span>[<span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>])
+388:     <span class="ruby-identifier">puts</span>
+389:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+390:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="vypis-mat-sousednosti-method" class="method-detail ">
+				<a name="method-i-vypis_mat_sousednosti"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">vypis_mat_sousednosti</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda, ktera vypise zadanou matici sousednosti
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="vypis-mat-sousednosti-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 229</span>
+229:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">vypis_mat_sousednosti</span> 
+230:     <span class="ruby-identifier">puts</span>
+231:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+232:     <span class="ruby-identifier">puts</span> <span class="ruby-value str">&quot;Matice sousednosti grafu je:&quot;</span>
+233:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;Matice sousednosti grafu je: \n&quot;</span>
+234:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_sousednosti</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">length</span>
+235:     <span class="ruby-identifier">max</span> = <span class="ruby-identifier">najdi_max_matice</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_sousednosti</span>)
+236:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;   &quot;</span>
+237:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;   &quot;</span>
+238:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span>
+239:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-identifier">max</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+240:         <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot; &quot;</span>
+241:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; &quot;</span>
+242:       <span class="ruby-keyword kw">end</span>
+243:       <span class="ruby-identifier">print</span> <span class="ruby-identifier">j</span>
+244:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-identifier">j</span>)
+245:       <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot; &quot;</span>
+246:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; &quot;</span>
+247:     <span class="ruby-keyword kw">end</span>
+248:     <span class="ruby-identifier">puts</span>
+249:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+250:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;  &quot;</span>
+251:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;  &quot;</span>
+252:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+253:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-identifier">max</span>
+254:         <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;-&quot;</span>
+255:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;-&quot;</span>
+256:       <span class="ruby-keyword kw">end</span>
+257:       <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;-&quot;</span>
+258:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;-&quot;</span>
+259:     <span class="ruby-keyword kw">end</span>       
+260:     <span class="ruby-identifier">puts</span> <span class="ruby-value str">&quot;-&quot;</span>
+261:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;-\n&quot;</span>
+262:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+263:       <span class="ruby-identifier">print</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+264:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-identifier">i</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>)
+265:       <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;| &quot;</span>
+266:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;| &quot;</span>
+267:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+268:         <span class="ruby-identifier">cis</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_sousednosti</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>]
+269:         <span class="ruby-identifier">cif</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">cifer</span>(<span class="ruby-identifier">cis</span>)
+270:         <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">k</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-identifier">max</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">cif</span>
+271:           <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot; &quot;</span>
+272:           <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; &quot;</span>
+273:         <span class="ruby-keyword kw">end</span>                                                                                                                    
+274:         <span class="ruby-identifier">print</span> <span class="ruby-identifier">cis</span>  
+275:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-identifier">cis</span>)
+276:         <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot; &quot;</span>
+277:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; &quot;</span>
+278:       <span class="ruby-keyword kw">end</span>
+279:       <span class="ruby-identifier">puts</span>
+280:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+281:     <span class="ruby-keyword kw">end</span>
+282:     <span class="ruby-identifier">puts</span>
+283:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+284:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="vypis-mat-vzdalenosti-method" class="method-detail ">
+				<a name="method-i-vypis_mat_vzdalenosti"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">vypis_mat_vzdalenosti</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda vypisujici spoctenou matici vzdalenosti
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="vypis-mat-vzdalenosti-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 287</span>
+287:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">vypis_mat_vzdalenosti</span>
+288:     <span class="ruby-identifier">puts</span> <span class="ruby-value str">&quot;Matice vzdalenosti grafu je:&quot;</span>
+289:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;Matice vzdalenosti grafu je: \n&quot;</span>
+290:     <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">length</span>
+291:     <span class="ruby-identifier">max</span> = <span class="ruby-identifier">najdi_max_matice</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>)
+292:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;   &quot;</span>
+293:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;   &quot;</span>
+294:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span>
+295:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-identifier">max</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+296:         <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot; &quot;</span>
+297:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; &quot;</span>
+298:       <span class="ruby-keyword kw">end</span>
+299:       <span class="ruby-identifier">print</span> <span class="ruby-identifier">j</span>
+300:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-identifier">j</span>)
+301:       <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot; &quot;</span>
+302:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; &quot;</span>
+303:     <span class="ruby-keyword kw">end</span>
+304:     <span class="ruby-identifier">puts</span>
+305:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+306:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;  &quot;</span>
+307:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;  &quot;</span>
+308:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+309:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-identifier">max</span>
+310:         <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;-&quot;</span>
+311:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;-&quot;</span>
+312:       <span class="ruby-keyword kw">end</span>
+313:       <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;-&quot;</span>
+314:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;-&quot;</span>
+315:     <span class="ruby-keyword kw">end</span>
+316:     <span class="ruby-identifier">puts</span> <span class="ruby-value str">&quot;-&quot;</span>
+317:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;-\n&quot;</span>
+318:     <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+319:       <span class="ruby-identifier">print</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+320:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-identifier">i</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>)
+321:       <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;| &quot;</span>
+322:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;| &quot;</span>
+323:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">j</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+324:         <span class="ruby-identifier">cis</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">mat_vzdalenosti</span>[<span class="ruby-identifier">i</span>][<span class="ruby-identifier">j</span>]
+325:         <span class="ruby-identifier">cif</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">cifer</span>(<span class="ruby-identifier">cis</span>)
+326:         <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">k</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">1</span><span class="ruby-operator">..</span><span class="ruby-identifier">max</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">cif</span>
+327:           <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot; &quot;</span>
+328:           <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; &quot;</span>
+329:         <span class="ruby-keyword kw">end</span>
+330:         <span class="ruby-identifier">print</span> <span class="ruby-identifier">cis</span>
+331:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-identifier">cis</span>)
+332:         <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot; &quot;</span>
+333:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot; &quot;</span>
+334:       <span class="ruby-keyword kw">end</span>
+335:       <span class="ruby-identifier">puts</span>
+336:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+337:     <span class="ruby-keyword kw">end</span>
+338:     <span class="ruby-identifier">puts</span>
+339:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+340:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="vypis-polomer-method" class="method-detail ">
+				<a name="method-i-vypis_polomer"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">vypis_polomer</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda, ktera vypisuje spocteny polomer
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="vypis-polomer-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 404</span>
+404:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">vypis_polomer</span>
+405:     <span class="ruby-identifier">puts</span>                                                
+406:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+407:     <span class="ruby-identifier">puts</span> <span class="ruby-value str">&quot;Polomer grafu je:&quot;</span>
+408:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;Polomer grafu je:\n&quot;</span>
+409:     <span class="ruby-identifier">puts</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">polomer</span>
+410:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">polomer</span>)
+411:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>                                                                               
+412:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="vypis-prumer-method" class="method-detail ">
+				<a name="method-i-vypis_prumer"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">vypis_prumer</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda vypisujici spocteny prumer
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="vypis-prumer-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 393</span>
+393:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">vypis_prumer</span>   
+394:     <span class="ruby-identifier">puts</span>                                                  
+395:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+396:     <span class="ruby-identifier">puts</span> <span class="ruby-value str">&quot;Prumer grafu je:&quot;</span>
+397:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;Prumer grafu je:\n&quot;</span>
+398:     <span class="ruby-identifier">puts</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">prumer</span>
+399:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">prumer</span>)
+400:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+401:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="vypis-stredy-method" class="method-detail ">
+				<a name="method-i-vypis_stredy"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">vypis_stredy</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda vypisujici vsechny stredy grafu
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="vypis-stredy-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 415</span>
+415:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">vypis_stredy</span> 
+416:     <span class="ruby-keyword kw">if</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">stredy</span>.<span class="ruby-identifier">length</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>
+417:       <span class="ruby-identifier">puts</span>
+418:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+419:       <span class="ruby-identifier">puts</span> <span class="ruby-value str">&quot;Stred grafu je uzel:&quot;</span>
+420:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;Stred grafu je uzel:\n&quot;</span>
+421:       <span class="ruby-identifier">puts</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">stredy</span>[<span class="ruby-value">0</span>]
+422:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">stredy</span>[<span class="ruby-value">0</span>])
+423:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+424:     <span class="ruby-keyword kw">else</span>
+425:       <span class="ruby-identifier">puts</span>
+426:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+427:       <span class="ruby-identifier">puts</span> <span class="ruby-value str">&quot;Stredy grafu jsou uzly:&quot;</span>
+428:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;Stredy grafu jsou uzly:\n&quot;</span>
+429:       <span class="ruby-identifier">kolik</span> = <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">stredy</span>.<span class="ruby-identifier">length</span>
+430:       <span class="ruby-keyword kw">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword kw">in</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">2</span>
+431:         <span class="ruby-identifier">print</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">stredy</span>[<span class="ruby-identifier">i</span>]
+432:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">stredy</span>[<span class="ruby-identifier">i</span>])
+433:         <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;, &quot;</span>
+434:         <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;, &quot;</span>
+435:       <span class="ruby-keyword kw">end</span>
+436:       <span class="ruby-identifier">print</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">stredy</span>[<span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>]
+437:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">String</span>(<span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">stredy</span>[<span class="ruby-identifier">kolik</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>])
+438:       <span class="ruby-identifier">puts</span>
+439:       <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">data_vystup</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;\n&quot;</span>
+440:     <span class="ruby-keyword kw">end</span>
+441:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="vypis-ulozeni-method" class="method-detail ">
+				<a name="method-i-vypis_ulozeni"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">vypis_ulozeni</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Metoda, ktera vypise, ze byl beh programu ulozen do souboru
+
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="vypis-ulozeni-source">
+<pre>
+     <span class="ruby-comment cmt"># File semestralka.rb, line 444</span>
+444:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">vypis_ulozeni</span> 
+445:     <span class="ruby-identifier">puts</span>                                                 
+446:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;Beh programu byl ulozen do souboru &quot;</span>
+447:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;\&quot;&quot;</span>
+448:     <span class="ruby-identifier">print</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">vystup</span>
+449:     <span class="ruby-identifier">print</span> <span class="ruby-value str">&quot;\&quot;.&quot;</span>
+450:     <span class="ruby-identifier">puts</span>
+451:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+
+	</div>
+
+
+	<div id="rdoc-debugging-section-dump" class="debugging-section">
+	
+		<p>Disabled; run with --debug to generate this.</p>
+	
+	</div>
+
+	<div id="validator-badges">
+		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+			Rdoc Generator</a> 1.1.6</small>.</p>
+	</div>
+
+</body>
+</html>
+
